@@ -27,6 +27,7 @@ html {
 
 body {
  background: linear-gradient(var(--soft-violet), var(--soft-blue));
+    background-repeat: repeat-y;
   font-family: Kumbh Sans, sans-serif;
   font-size: 13px;
 }
