@@ -67,7 +67,7 @@ main {
   display: block;
   position: relative;
   left: -80px;
-  top: -880px;
+  top: -900px;
   margin-right: -300px;
 }
 .biggerContainer {
@@ -75,7 +75,7 @@ main {
 }
 .boxPic {
   position: relative;
-  top: 400px;
+  top: 390px;
   left: -95px;
   z-index: 1;
 }
