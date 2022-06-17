@@ -27,7 +27,6 @@ html {
 
 body {
  background: linear-gradient(var(--soft-violet), var(--soft-blue));
-    background-repeat: repeat-y;
   font-family: Kumbh Sans, sans-serif;
   font-size: 13px;
 }
@@ -50,7 +49,7 @@ main {
   margin: 0;
   border-radius: 25px;
  overflow: hidden;
-  box-shadow: 0 40px 50px darkblue;;
+  box-shadow: 0 40px 50px darkblue;
 }
 
 
@@ -86,7 +85,7 @@ main {
 
 }
 
-.grid-container {
+#grid-container {
   display: grid;
   
 }
@@ -100,7 +99,7 @@ main {
   margin-bottom: 19px;
 }
 
-#numberOne, #numberTwo, #numberThree, #numberFour, #numberFive  {
+.numberOne, .numberTwo, .numberThree, .numberFour, .numberFive  {
   margin-bottom: 19px;
   display: none;
   color: gray;
@@ -165,13 +164,15 @@ main {
   height: 536px;
   margin: 150px 23px 85px 23px;
   border-radius: 25px;
- overflow: visible;
+  overflow: visible;
   }
   
   
   .biggerContainer {
   margin: 0;
   }
+  
+  
 .bgPatternPic {
   position: absolute;
   width: 240px;
@@ -196,10 +197,10 @@ main {
 }
   
   h1 {
-    text-align: center;
+  text-align: center;
   }
   .rightContainer{
-  margin: 50px 23.5px 50px 23.5px;
+  margin: 20px 23.5px 50px 23.5px;
   }
  .grid-item1, .grid-item2, .grid-item3, .grid-item4, .grid-item5 {
    width: 100%;}
@@ -229,4 +230,5 @@ main {
   top: 0;
   left: 55px;
 }
+  
 }
