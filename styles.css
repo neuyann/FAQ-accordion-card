@@ -160,9 +160,9 @@ main {
   display: flex;
   flex-direction: column;
   background-color: white;
-  width: 328px;
+  width: 329px;
   height: 536px;
-  margin: 150px 23px 85px 23px;
+  margin: 150px auto 85px auto;
   border-radius: 25px;
   overflow: visible;
   }
